@@ -2,8 +2,12 @@ import React from 'react'
 import { useState}  from 'react';
 import memesData from "./data";
 export default function Meme() {
-    const [memeImage, setMemeImage] = useState("")
-
+    const [meme, setMeme] = useState({
+        topText: "",
+        bottomText: "",
+        randomImage: "https://i.imgflip.com/30b1gx.jpg",
+    })
+    const [allMemeImages, setAllMemeImages] = useState(memesData);
 
 
     function getMemeImage() {
