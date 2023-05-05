@@ -36,7 +36,12 @@ export default function Meme() {
                 onClick={getMemeImage}>
                 😜Get a new Meme Image 🖼️
                 </button>
+                    
+                <div className="meme">
                 <img src={meme.randomImage} alt="" className='meme--image'/>
+                <h1 className="meme--text top">One does not simply</h1>
+                <h1 className="meme--text bottom">Walk into Morder</h1>
+                </div>
             </div>
         </main>
         
