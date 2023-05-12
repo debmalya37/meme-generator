@@ -76,11 +76,11 @@ main {
 position: absolute;
 }
 
-.meme--text {
-  position: absolute;
+.top {
+  position: relative;
   width: 80%;
   text-align: center;
-  left: 50%;
+  left: 75%;
   transform: translateX(-50%);
   margin: 15px 0;
   padding: 0 5px;
@@ -100,3 +100,28 @@ position: absolute;
       -2px 0 0 #000,
       2px 2px 5px #000;
 }
+
+.bottom{
+    position: relative;
+    width: 80%;
+    text-align: center;
+    left: 75%;
+    transform: translateX(-50%);
+    margin: 150px 0;
+    padding-top: 110px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+  }
